@@ -6,6 +6,11 @@ docker build . --tag gcr.io/fetch-ai-sandbox/demo-deployment:james
 ```
 
 To push to container registry:
-```
+```bash
 gcloud docker -- push gcr.io/fetch-ai-sandbox/demo-deployment:james
+```
+
+To create deployment:
+```bash
+kubectl apply -f deployment/deployment.yaml
 ```
