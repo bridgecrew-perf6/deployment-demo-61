@@ -7,5 +7,5 @@ docker build . --tag gcr.io/fetch-ai-sandbox/demo-deployment:latest
 
 To push to container registry:
 ```
-gcloud docker --push gcr.io/fetch-ai-sandbox/demo-deployment:latest
+gcloud docker -- push gcr.io/fetch-ai-sandbox/demo-deployment:latest
 ```
