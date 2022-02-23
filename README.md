@@ -14,3 +14,18 @@ To create deployment:
 ```bash
 kubectl apply -f deployment/deployment.yaml
 ```
+
+To see deployed pods:
+```bash
+kubectl get pods
+```
+
+To show logs:
+```bash
+kubectl logs <pod-name> -f
+```
+
+To delete deployment:
+```bash
+kubectl delete deployments.apps demo-deployment
+```
