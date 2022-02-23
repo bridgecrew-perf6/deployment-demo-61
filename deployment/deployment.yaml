@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
       - name: demo
-        image: gcr.io/fetch-ai-sandbox/demo-deployment:latest
+        image: gcr.io/fetch-ai-sandbox/demo-deployment:james
         command: ["python", "main.py"]
